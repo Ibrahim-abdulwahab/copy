@@ -1,0 +1,125 @@
+<html>
+<head>
+    <style>
+        h1{
+            text-align: center;
+            color: brown;
+            font-family: monospace
+        }
+        header{
+            margin: auto;
+            background-color:white;
+            width:50%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        body{
+            margin: 30px;
+            background-color:gray;
+        }
+        div{
+            margin: auto;
+            background-color: darkgrey;
+            width: 50%;
+        }
+        label{
+            color: red;
+        }
+        th{
+            color:darkred;
+        }
+        table{
+            width:100%;
+            text-align:left;
+        }
+        p{
+            color: darkred;
+            padding-left:30px;
+            margin-block-end:0;
+            padding-top:20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+<h1>Follow Up Survey</h1>
+    </header>
+<div>
+<table>
+    <tr>
+    <th style="padding-right:10px;padding-left:26px;padding-top:10px;"> When did you use our services?</th>
+    <th style="padding-top:10px;"> Name of product or service</th>
+</tr>
+<tr>
+    <td style="padding-right:30px;padding-left:26px;"><input type="date" name="trip-start" style="width:90%;height:30px;"
+        value="2018-07-22"
+        min="2018-01-01" max="2024-12-31"> </td>
+    <td><input type="text" style="width:90%;height:30px;"></td>    
+</tr>
+<tr>
+    <td style="padding-left:26px;"><u style="color:rgb(11, 57, 206)">Done</u></td>
+</tr>
+</table>
+
+<p>Overall, how satisfied are you with the product or service?</p>
+<table style="padding-left:20px;">
+    <tr>
+        <td style="width:50%;padding-top:10px;"><input type="radio" name="satisfaction"><label>Very satisfied</label></td>
+        <td style="padding-top:10px;"><input type="radio" name="satisfaction"><label>Satisfied</label></th>
+    </tr>
+    <tr>
+        <td style="padding-top:10px;"><input type="radio" name="satisfaction"><label>Neutral</label></td>
+        <td style="padding-top:10px;"><input type="radio" name="satisfaction"><label>Unsatisfied</label></td>
+    </tr>
+    <tr>
+        <td style="padding-top:10px;"><input type="radio" name="satisfaction"><label>Very unsatisfied</label></td>
+        <td style="padding-top:10px;"><input type="radio" name="satisfaction"><label>N/A</label></td>
+    </tr>
+</table>
+<p>Do our product or service meet your</p>
+<table style="padding-left:20px;">
+    <tr>
+        <td style="width:50%;padding-top:10px;"><input type="radio" name="expectations"><label>Yes</label></td>
+        <td style="padding-top:10px;"><input type="radio" name="expectations"><label>No</label></th>
+    </tr>
+</table>
+<p>Would you recommend this picture to a friend</p>
+<table style="padding-left:20px;">
+    <tr>
+        <td style="width:50%;padding-top:10px;"><input type="radio" name="recommend"><label>Yes</label></td>
+        <td style="padding-top:10px;"><input type="radio" name="recommend"><label>No</label></th>
+    </tr>
+</table>
+<p>What aspect of the product or service were you most satisfied by?</p>
+<table style="padding-left:20px;">
+    <tr>
+        <td style="width:50%;padding-top:10px;"><input type="radio" name="aspect"><label>Quality</label></td>
+        <td style="padding-top:10px;"><input type="radio" name="aspect"><label>Price</label></th>
+    </tr>
+    <tr>
+        <td style="padding-top:10px;"><input type="radio" name="aspect"><label>Customer service</label></td>
+        <td style="padding-top:10px;"><input type="radio" name="aspect"><label>Instalation or first use experience</label></td>
+    </tr>
+</table>
+<p>What aspect of the product or service were you least satisfied by?</p>
+<table style="padding-left:20px;">
+    <tr>
+        <td style="width:50%;padding-top:10px;"><input type="radio" name="least"><label>Quality</label></td>
+        <td style="padding-top:10px;"><input type="radio" name="least"><label>Price</label></th>
+    </tr>
+    <tr>
+        <td style="padding-top:10px;"><input type="radio" name="least"><label>Customer service</label></td>
+        <td style="padding-top:10px;"><input type="radio" name="least"><label>Instalation or first use experience</label></td>
+    </tr>
+</table>
+<p style="padding-top:40px;"><label for="question" style="color:darkred;">Additional comments:</label>
+    <br>
+    
+    <textarea id="question" name="question" rows="7" cols="75" style="margin-top:10px;">Type here...
+    </textarea><br/>
+    <p style="padding-left: 37%;padding-bottom:30px;"><input type="submit" value="Submit" style=
+    "background-color: rgb(31, 24, 24);padding: 10px 50px;color:white;
+    "></p>
+</div>
+</body>
+</html>
